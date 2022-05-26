@@ -7,3 +7,5 @@ function greet(person: string, date: Date){
 }
 
 greet("Brendan", new Date())
+
+// use tsc --target es2015 hello.ts to convert to ES6 not older
